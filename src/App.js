@@ -7,7 +7,14 @@ function App() {
     <>
     <Navbar />
     {/* <Hero /> */}
-    <Card />
+    <Card 
+      img="./images/kayaking.jpeg"
+      rating={5.0}
+      reviewCount={99}
+      country="Ireland"
+      title="Daytime/Sunset Kayak Trip"
+      price={35}
+    />
     </>
   );
 }
